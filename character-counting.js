@@ -7,7 +7,6 @@ function countLetters(str) {
   for (i = 0; i < noSpaces.length; i++) {
 
     var key = noSpaces[i];
-    var currentCount;
 
     if (letterTotals[key]) {
       letterTotals[key] += 1;
